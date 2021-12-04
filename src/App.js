@@ -1,6 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
-import { useEffect, useRef } from 'react';
+import { useEffect } from 'react';
 import { getChartData } from './services/api.service';
 import {
   Chart as ChartJS,
